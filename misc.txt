@@ -1,0 +1,13 @@
+Quick Session Fix
+Run this command first to bypass the policy just for the current PowerShell session (safest option, resets on close):
+
+text
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+Then activate your virtual environment:
+
+text
+.venv\Scripts\activate
+-อันนี้อยู่นอกโฟลเดอร์ด้วย
+
